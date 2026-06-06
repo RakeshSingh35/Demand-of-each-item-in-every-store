@@ -42,22 +42,22 @@ Key insights:
 
 ## 🎨 Visualization
 - Montly sales distribution of all stores and item over a month.
-![Boxplot of monthly sales](images/monthly_sales_distribution.png)
+![Boxplot displaying monthly sales distribution across all stores and items, showing median, quartiles, and outlier values for each month](images/monthly_sales_distribution.png)
 - Median sales of items has been increasing every year.
-![Median sales of all item over the year](images/Median_of_sales_for_all_stores_and_item.png)
+![Line chart showing median sales across all stores and items over multiple years, demonstrating upward trend in sales growth annually](images/Median_of_sales_for_all_stores_and_item.png)
 
 - There is yearly seasonality that exists in the sales with outliers every month.
 - Median sales on rises for first six months then it it decline till the end of year.
-![Boxplot for monthly sales of each item](images/Boxplot_for_monthly_sales_for_each_item.png)
+![Boxplot comparing monthly sales for each item, displaying higher median values in first six months that decline toward year end with scattered outliers throughout](images/Boxplot_for_monthly_sales_for_each_item.png)
 
 - Median sales of each store rises during first six months then it declines for next six months.
-![Boxplot for montly sales of each store](images/boxplot_for%20monthly_sales_for_each_store.png)
+![Boxplot showing monthly sales patterns for each store, with peak median sales in the first half of the year gradually declining through the second half](images/boxplot_for%20monthly_sales_for_each_store.png)
 
 - Sales rate of every item on each store has been rising by yearly.
-![Growth of item by store](images/growth_of_item_by_store_by_year.png)
+![Growth visualization comparing sales rates of items across stores by year, showing consistent upward trajectory year over year](images/growth_of_item_by_store_by_year.png)
 
 - Seasonal decomposition of every item by each store indicate a rising trend, yearly seasonality and residual that exists.
-![seasonal decomposition of item by store](images/seasonal_decomposition.png)
+![Seasonal decomposition chart breaking down sales data by store and item into trend component showing upward growth, seasonal component displaying yearly cyclical pattern, and residual component showing remaining variations](images/seasonal_decomposition.png)
 
 ---
 
@@ -86,10 +86,10 @@ Key insights:
 
 # Forecasting visual 
 GluonTs models inventory prediction
-- ![GluonTs model forecast](images/gluonts_inventory_prediction.png)
+![Time series forecast chart from GluonTs model showing inventory predictions with blue bars representing historical sales data from 2013 to 2017 and red bars highlighting the 3-month forecasted period, demonstrating strong weekly and yearly seasonal patterns](images/gluonts_inventory_prediction.png)
 
 Darts models inventory prediction
-![Darts model forecast](images/darts_future_forecast.png)
+![Time series forecast chart from Darts model displaying inventory predictions with blue area representing historical sales data spanning multiple years and red area indicating the forecasted future period, showing consistent seasonal fluctuations and overall upward trend](images/darts_future_forecast.png)
 ---
 
 ## ⚙️ Installation & Requirements
