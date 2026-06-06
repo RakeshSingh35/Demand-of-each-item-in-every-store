@@ -83,6 +83,13 @@ Key insights:
   MAE: 6.195
   MAPE: 13.086
   rsq: 0.567
+
+# Forecasting visual 
+GluonTs models inventory prediction
+- ![GluonTs model forecast](images/gluonts_inventory_prediction.png)
+
+Darts models inventory prediction
+![Darts model forecast](images/darts_future_forecast.png)
 ---
 
 ## ⚙️ Installation & Requirements
