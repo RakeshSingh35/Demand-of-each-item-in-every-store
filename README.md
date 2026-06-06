@@ -291,9 +291,9 @@ Store_Inventory_Forecasting/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/store-inventory-forecasting.git
+git clone https://github.com/RakeshSingh35/Demand-of-each-item-in-every-store.git
 
-cd store-inventory-forecasting
+cd Demand-of-each-item-in-every-store
 ```
 
 ---
@@ -345,6 +345,6 @@ This project is released under the MIT License.
 
 # 👤 Author
 
-Rakesh Singh
+Rakesh Kumar Singh
 
 Data Science | Machine Learning | Time Series Forecasting
