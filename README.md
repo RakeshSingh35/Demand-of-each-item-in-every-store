@@ -233,7 +233,7 @@ Average performance across all Store–Item series:
 
 Historical sales and future inventory demand predictions.
 
-![GluonTS Forecast](images/gluonts_inventory_prediction.png)
+![GluonTS Forecast](images/GluonTs_future_forecast.png)
 
 ---
 
@@ -262,12 +262,12 @@ The analysis reveals:
 ```text
 Store_Inventory_Forecasting/
 │
-├── data/
-│   ├── train.csv
-│
-├── notebooks/
-│   ├── EDA.ipynb
-│   ├── Forecasting.ipynb
+├── dataset/
+│   ├── df.csv
+│── analysis.ipynb
+|── gluonts_inventory_colab.ipynb
+|── neuralforecast.ipynb
+|── NHITS_darts.ipynb
 │
 ├── images/
 │   ├── monthly_sales_distribution.png
