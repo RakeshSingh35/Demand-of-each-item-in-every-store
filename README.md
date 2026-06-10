@@ -108,11 +108,11 @@ Highlights store-level seasonal demand patterns.
 
 ---
 
-## Growth of Items by Store and Year
+## Growth of total sales of each Items by each Store per Year.
 
-Demonstrates increasing sales rates across stores and products.
+Demonstrates increase of total sales across stores and products.
 
-![Growth by Store and Item](images/growth_of_item_by_store_by_year.png)
+![Total sales by Store and Item over the year](images/Total_sales_of_item_by_store_by_year.png)
 
 ---
 
