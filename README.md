@@ -115,7 +115,14 @@ Demonstrates increase of total sales across stores and products.
 ![Total sales by Store and Item over the year](images/Total_sales_of_item_by_store_by_year.png)
 
 ---
+## Plot of sales-Ratio of current value/previous value over half yearly period.
+![Sales_ratio : Current_values/Previous_value](images/Sales_ratio_trends_by_store_item.png)
 
+---
+
+## Plot of percentage of sales over half yearly.
+![Plot of percentqge of sales over a period of time ](images/Percentage_changs_sales_store_item.png)
+---
 ## Seasonal Decomposition
 
 Trend, seasonality, and residual components for Store–Item combinations.
@@ -130,6 +137,7 @@ The following preprocessing steps were applied:
 
 * Date parsing
 * Time series indexing
+* Indian holidays addition
 * Standardization / normalization
 * Group-wise forecasting preparation
 * Future covariate generation
