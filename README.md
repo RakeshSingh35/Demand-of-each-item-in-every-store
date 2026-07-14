@@ -108,19 +108,25 @@ Highlights store-level seasonal demand patterns.
 
 ---
 
-## Growth of total sales of each Items by each Store per Year.
+## Annual Sales Growth by Store and Item.
 
-Demonstrates increase of total sales across stores and products.
+This chart illustrates the year‑over‑year growth of total sales for each item across all stores.
+It demonstrates how sales volumes increase annually, making it easy to compare performance trends across products and locations.
+Growth rates are calculated as the percentage change in total sales compared to the previous year.
 
 ![Total sales by Store and Item over the year](images/Total_sales_of_item_by_store_by_year.png)
 
 ---
-## Plot of sales-Ratio of current value/previous value over half yearly period.
+## 📈 Half‑Yearly Sales Ratio Trend
+This plot shows the sales ratio, calculated as the current value divided by the previous value, across half‑yearly periods.
+It highlights growth patterns by comparing each period’s sales to the preceding one, making trends in store‑item performance easy to interpret.
 ![Sales_ratio : Current_values/Previous_value](images/Sales_ratio_trends_by_store_item.png)
 
 ---
 
-## Plot of percentage of sales over half yearly.
+## Half‑Yearly Percentage Change in Sales
+This plot illustrates the percentage change in sales across half‑yearly periods.
+It compares each period’s sales to the previous one, highlighting growth trends for items across different stores.
 ![Plot of percentqge of sales over a period of time ](images/Percentage_changs_sales_store_item.png)
 ---
 ## Seasonal Decomposition
@@ -137,6 +143,7 @@ The following preprocessing steps were applied:
 
 * Date parsing
 * Time series indexing
+* Weekly and monthly date.
 * Indian holidays addition
 * Standardization / normalization
 * Group-wise forecasting preparation
@@ -170,6 +177,7 @@ Models evaluated:
 
 * DeepAR
 * Probabilistic Forecasting Models
+* DeepAR model with saftey stocks.
 
 Framework:
 
@@ -212,13 +220,12 @@ Evaluation Type:
 
 Performance was measured using:
 
-| Metric | Description                              |
-| ------ | ---------------------------------------- |
-| RMSE   | Root Mean Squared Error                  |
-| MAE    | Mean Absolute Error                      |
-| MAPE   | Mean Absolute Percentage Error           |
-| SMAPE  | Symmetric Mean Absolute Percentage Error |
-| R²     | Coefficient of Determination             |
+| Metric     | Description                                                             |
+| ---------- | ------------------------------------------------------------------------|
+| AVG RMSE   | Average Root Mean Squared Error of every store-item combination         |                 |
+| AVF MAE    | Average Mean Absolute Error of every store-item combination             |
+| AVG MAPE   | Average Mean Absolute Percentage Error of every store-item combination. |                                 |
+| AVG R²     | Average Coefficient of Determination of every store-item combination.   |                                 |
 
 ---
 
@@ -226,12 +233,12 @@ Performance was measured using:
 
 Average performance across all Store–Item series:
 
-| Metric | Value   |
-| ------ | ------- |
-| RMSE   | 7.793   |
-| MAE    | 6.195   |
-| MAPE   | 13.086% |
-| R²     | 0.567   |
+| Metric   | Value   |
+| ---------| ------- |
+| AVG RMSE | 7.793   |
+| AVG MAE  | 6.195   |
+| AVG MAPE | 13.086% |
+| AVG R²   | 0.567   |
 
 ---
 
